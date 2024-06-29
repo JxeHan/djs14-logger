@@ -1,7 +1,7 @@
 const { WebhookClient, EmbedBuilder } = require('discord.js');
 
 // Initialize the webhook client
-const webhook = new WebhookClient({ url: 'https://discord.com/api/webhooks/1245829353208549376/_651_x2EpVrC8E4wjdpFKZtZLdGMSq6FpxKG28q5kIyfQkSlctKVCIX4Dv5rPWA6wxk_' });
+const webhook = new WebhookClient({ url: '' }); // webhook url
 
 const logErrorToWebhook = async (eventType, error) => {
     const embed = new EmbedBuilder()
